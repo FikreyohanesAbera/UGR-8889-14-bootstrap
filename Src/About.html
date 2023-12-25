@@ -1,113 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
     <script src="https://kit.fontawesome.com/b47041fb88.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
-    <header>
-        <nav> 
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="Adventures.html">Adventures</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Hobbies.html">Hobbies</a></li>
-                <li><a href="contacts.html">Contact</a></li>
 
-            </ul>
+<body>
+    <header style="height: 56px;">
+        <nav class="navbar navbar-expand-lg bg-info bg-gradient fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto text-center">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="Adventures.html">Adventures</a>
+                        <a class="nav-link" href="skills.html">Skills</a>
+                        <a class="nav-link" href="About.html">About</a>
+                        <a class="nav-link" href="Hobbies.html">Hobbies</a>
+                        <a class="nav-link" href="contacts.html">Contact</a>
+
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <section>
-        Welcome. Just some information about myself
+    <section class="text-center bg-info bg-gradient py-4">
+        <h1 class="m-auto">Welcome. Just some information about myself</h1>
     </section>
-    <section>
-        <div>
-            <img width="300" src="images/[removal.ai]_7f2d2c56-932d-4134-88d0-0bef44deac49-notebook_flat_style.png" alt="">
-            <img width="300"  id = "sec-img" src="images/[removal.ai]_7f2d2c56-932d-4134-88d0-0bef44deac49-notebook_flat_style.png" alt="">
-            <p>My name is Fikreyohanes Abera Shibru. I am 20 years old currently. I was born in addis and lived there since. i finished my high school education at cruise school. Now I am learning sofware enginnering at AAiT. I'm now at my 3rd year. I think I am satisfied with my carrer choice because there is a lot more creativity and a lot to discover in this field.  </p>
+    <section style="background-image: url(images/workplace-with-smartphone-notebook-black-table-top-view.jpg); background-size:cover; background-position-y: 20%;">
+        <div class="text-center position-relative" >
+            <img class="position-relative" width="300px" style="right: 10px; filter:brightness(1)" src="images/[removal.ai]_7f2d2c56-932d-4134-88d0-0bef44deac49-notebook_flat_style.png"
+                alt="">
+    
+            <p class="position-absolute start-50 translate-middle-x" style="width: 250px; top: 2vw; line-height: 2.15em">My name is Fikreyohanes Abera Shibru. I am 20 years old currently. I was born in addis and lived there
+                since. i finished my high school education at cruise school. Now I am learning sofware enginnering at
+                AAiT. I'm now at my 3rd year. I think I am satisfied with my carrer choice because there is a lot more
+                creativity and a lot to discover in this field. </p>
 
         </div>
     </section>
     <section>
-        <h1>Favorites</h1>
-        <table>
-            <tr>
-                <th>Categories</th>
-                <th>Favorites</th>
-                <th>Least Favorites</th>
-            </tr>
-            <tr>
+        <h1 class="text-center my-4">Favorites</h1>
+
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Categories</th>
+                <th scope="col">Favorites</th>
+                <th scope="col">Least Favorites</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
                 <td>Food</td>
                 <td>I don't have much preferences, but i like "shimbra asa"</td>
                 <td>All are Good</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Sport</td>
                 <td>Football and pingpong</td>
                 <td>Not really a fan of bodybuilding</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Movies</td>
                 <td>Probably Classic Home alone and inception out of the ten movies i watched</td>
                 <td>I don't like movies themselves</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Football player</td>
                 <td>Seeing players like iniesta, debruyne and ronaldinho is glorious</td>
                 <td>None. Disliking and Rivalry are different things</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Holiday</td>
                 <td>Easter</td>
                 <td>None</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Video Game</td>
                 <td>Just cause 3 remains my favorite</td>
                 <td>Minecraft</td>
-            </tr>
-        </table>
+              </tr>
+            </tbody>
+          </table>
     </section>
-    <section>
-        <h1>My future Plans</h1>
+    <h1 class="text-center my-4">My future Plans</h1>
+    <section class="container-fluid d-flex justify-content-evenly align-items-center">
+
         <figure>
             <img width="95" height="90" src="images/11725.jpg" alt="">
-            <figcaption>AI developer</figcaption>
+            <h4>
+                AI developer
+            </h4>
         </figure>
+        <div>
+            <img width="95" height="120"
+                src="images/[removal.ai]_d090d94c-0989-475c-bc5d-465b83a8ba6f-blank_chalk_menu_street_blackboard_stand.png"
+                alt="">
+            <h4>Data scientist</h4>
 
-        <img width="95" height="120" src="images/[removal.ai]_d090d94c-0989-475c-bc5d-465b83a8ba6f-blank_chalk_menu_street_blackboard_stand.png" alt="">
-        <h4>Data scientist</h4>
-        <img width="95" height="90" src="images/wooden-sign-with-symbol.jpg" alt="">
-        <h4>Designer</h4>
-        <aside>
-            Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.
+        </div>
+        <div>
+            <img width="95" height="90" src="images/wooden-sign-with-symbol.jpg" alt="">
+            <h4>Designer</h4>
 
-        </aside>
-        
+        </div>
+
+
+
+
+
     </section>
 
 
-    
+
 </body>
 
 <footer>
-    <p>Thank you for visiting my website.check out these links to explore further</p>
-    <ul>
-        <li><a href="Adventures.html">Adventures</a></li>
-        <li><a href="contacts.html">Contact</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Hobbies.html">Hobbies</a></li>
-    </ul>
-
-    <div>
-        <a href="godfathershemsu@gmail.com"><i class="fa-brands fa-google fa-2xl"></i></a>
-        <a href="t.me/FikreyohanesAbera"><i class="fa-brands fa-telegram fa-2xl"></i></a>
-        <a href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
-
+    <div class="mt-5">
+        <footer class="text-center text-lg-start text-white" style="background-color: #040615">
+            <div class="container p-4 pb-0">
+                <section class="">
+                    <div class="row">
+                        <div class="">
+                            <p class="text-center">
+                                Thank you for visiting my website. Check out these links to explore further
+                            </p>
+                        </div>
+                        <div class="">
+                            <ul class="list-unstyled mb-0 text-center">
+                                <li>
+                                    <a href="Adventures.html" class="text-white text-decoration-none">Adventures</a>
+                                </li>
+                                <li>
+                                    <a href="contacts.html" class="text-white text-decoration-none">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="About.html" class="text-white text-decoration-none">About</a>
+                                </li>
+                                <li>
+                                    <a href="Hobbies.html" class="text-white text-decoration-none">Hobbies</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            <hr class="mb-4" />
+            <hr class="mb-4" />
+            <section class="mb-4 text-center">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-telegram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
     </div>
+
 </footer>
+
 </html>
