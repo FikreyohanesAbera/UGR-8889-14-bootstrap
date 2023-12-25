@@ -1,76 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Adventures</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/b47041fb88.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
-        <nav> 
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="Adventures.html">Adventures</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Hobbies.html">Hobbies</a></li>
-                <li><a href="contacts.html">Contact</a></li>
 
-            </ul>
+<body class="bg-dark">
+    <header style="height: 56px">
+        <nav class="navbar navbar-expand-lg bg-info bg-gradient fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto text-center">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        <a class="nav-link" href="Adventures.html">Adventures</a>
+                        <a class="nav-link" href="skills.html">Skills</a>
+                        <a class="nav-link" href="About.html">About</a>
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                        <a class="nav-link" href="contacts.html">Contact</a>
+
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <div>
-        
-        <img width="320" src="images/wojciech-then-DijA5f0voGQ-unsplash.jpg" alt="background-img">
-
-        <img width="50" src="images/balloon1.png" alt="balloon-img">
-        <h1>My Adventures</h1>
-
-    
+    <div class="position-relative">
+        <img class="w-100" src="images/wojciech-then-DijA5f0voGQ-unsplash.jpg" alt="background-img">
+        <h1 class="position-absolute display-1" style="top: 15vw; left: 15vw">My Adventures</h1>
     </div>
-    <section>
-        <main>
-            <h1>Places I visited</h1>
-            <img width="150" src="images/AdobeStock_153134060_Preview.jpeg" alt="">
-            <p>Abay was a really mesmerizing location. I liked sound, the fountain and the natural beauty there</p>
-            <img width="150" src="images/mulugeta-wolde-6SgfEwkA02Y-unsplash.jpg" alt="">
-            <p>Lalibela is just pure wisdom. It's my favorite place i visited and i hope they preserve it for ages</p>
-            <div>
+    <section class="bg-dark text-white mt-5">
+        <main class="">
+            <div class=" container row">
+                <div class="col-md-6">
+                    <img class="w-50" src="images/AdobeStock_153134060_Preview.jpeg" alt="">
+                    <p class="col-md-6 m-right">Abay was a really mesmerizing location. I liked
+                        sound, the fountain and the
+                        natural
+                        beauty there</p>
+
+                </div>
+                <div
+                    class="col-md-6">
+                    <img class="m-auto w-50" src="images/AdobeStock_384693833_Preview (1).jpeg" alt="">
+                    <p class="col-md-6 col-md-6">I went to axum back when i was a child. Although I
+                        don't remember much, i
+                        still have
+                        some memories in hidar tsion ceremony. It's one of the best insights i've ever experienced</p>
+
+
+                </div>
+
+
+            </div>
+            <div class="row text-end container">
+                <div
+                    class="text-end col-md-6">
+                    <img class="w-50 m-auto" src="images/Gondar.jpeg" alt="">
+                    <p class="col-md-6 ms-auto text-end">
+                        Timket holiday in Gondar is the best. The presence of the 44 covenants makes it even more
+                        special
+                    </p>
+                </div>
+                <div
+                    class="text-end col-md-6">
+                    <img class="w-50" src="images/Gojo bet.jpeg" alt="">
+                    <p class="col-md-6 ms-auto">The Gojo bets in Ethiopia look incredibly awesome</p>
+                </div>
+
+            </div>
+
+
+
+        </main>
+
+        <main class="text-center mt-5">
+            <img class="m-auto w-50" src="images/mulugeta-wolde-6SgfEwkA02Y-unsplash.jpg" alt="">
+            <p class="mb-8">Lalibela is just pure wisdom. It's my favorite place i visited and i hope they preserve it
+                for ages</p>
+            <div class="text-center mb-5">
                 <details>
-                    <summary>Lalibela</summary>
-                    <p>Lalibela is a small town in the highlands of northern Ethiopia, a country that's been Christian since 330 A.D., making it the oldest Christian country in the world. It is also home to a truly awe-inspiring mystery: a series of 11 churches like no other, all built without bricks, mortar, lumber or concrete.</p>
+                    <summary class="text-2xl mb-12">Lalibela</summary>
+                    <p>Lalibela is a small town in the highlands of northern Ethiopia, a country that's been Christian
+                        since 330 A.D., making it the oldest Christian country in the world. It is also home to a truly
+                        awe-inspiring mystery: a series of 11 churches like no other, all built without bricks, mortar,
+                        lumber or concrete.</p>
                 </details>
             </div>
 
+            <img class="m-auto w-50 md:w-96" src="images/AdobeStock_284840933_Preview.jpeg" alt="">
+            <p class="mb-8">Debre libanos is one of the places i frequently visit and it still feels fresh. It's so
+                unique and special religious monastry. I definitely recommend visiting it</p>
         </main>
-
-        <main>
-            <img width="150" src="images/AdobeStock_384693833_Preview (1).jpeg" alt="">
-            <p>I went to axum back when i was a child. Although I don't remember much, i still have some memories in hidar tsion ceremony. It's one of the best insights i've ever experienced</p>
-            <img width="150" src="images/AdobeStock_284840933_Preview.jpeg" alt="">
-            <p>Debre libnos is one of the places i frequently visit and it still feels fresh. It's so unique and special religious monastry. I definitely recommend visiting it</p>
-        </main>
-        <div>
-            <img class="scroller" width = "280" src="images/12147-removebg.png" alt="">
+        <div class="m-auto text-center position-relative">
+            <img class="scroller m-auto" width="300" src="images/12147-removebg.png" alt="">
+            <p class="position-absolute translate-middle text-black" style = "width: 150px; top: 45%; left: 50%">Ethiopia is a beautiful country. We must explore it as much as we can</p>
         </div>
+        <h1 class="text-center my-5">Future Visits</h1>
+
+                <section class="container row justify-content-center m-auto text-center">
+                    <div class="col-md-3">
+                        <img class="w-75 rounded" src="images/eiffel-tower-view.jpg" alt="">
+                        <h3>Eiffle Tower</h3>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img class="w-75 rounded" src="images/woman-walking-big-entrance-gate-bali-indonesia.jpg"
+                            alt="">
+                        <h3>Bali</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="w-75 rounded"
+                            src="images/beautiful-shot-small-village-surrounded-by-lake-snowy-hills.jpg" alt="">
+                        <h3>Norway</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="w-75 rounded" src="images/tobias-tullius-eJeEz6Paz-o-unsplash.jpg" alt="">
+                        <h3>Switzerland</h3>
+                    </div>
+                </section>
     </section>
-    
+
 </body>
 <footer>
-    <ul>
-        <li><a href="Adventures.html">Adventures</a></li>
-        <li><a href="contacts.html">Contact</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Hobbies.html">Hobbies</a></li>
-    </ul>
-
-    <div>
-        <a href="godfathershemsu@gmail.com"><i class="fa-brands fa-google fa-2xl"></i></a>
-        <a href=""><i class="fa-brands fa-telegram fa-2xl"></i></a>
-        <a href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
-
+    <div class="mt-5">
+        <footer class="text-center text-lg-start text-white" style="background-color: #040615">
+            <div class="container p-4 pb-0">
+                <section class="">
+                    <div class="row">
+                        <div class="">
+                            <p class="text-center">
+                                Thank you for visiting my website. Check out these links to explore further
+                            </p>
+                        </div>
+                        <div class="">
+                            <ul class="list-unstyled mb-0 text-center">
+                                <li>
+                                    <a href="Adventures.html" class="text-white text-decoration-none">Adventures</a>
+                                </li>
+                                <li>
+                                    <a href="contacts.html" class="text-white text-decoration-none">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="About.html" class="text-white text-decoration-none">About</a>
+                                </li>
+                                <li>
+                                    <a href="Hobbies.html" class="text-white text-decoration-none">Hobbies</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            <hr class="mb-4" />
+            <hr class="mb-4" />
+            <section class="mb-4 text-center">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-telegram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
     </div>
+
 </footer>
-</footer>
+
 </html>
