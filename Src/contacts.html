@@ -1,54 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
-</head>
-<body>
-    <header>
-        <nav> 
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="Adventures.html">Adventures</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Hobbies.html">Hobbies</a></li>
-                <li><a href="contacts.html">Contact</a></li>
 
-            </ul>
-        </nav>
-    </header>
-    <div>
-        <h1>Contact Me</h1>
-        <img width="320" src="images/89763.jpg" alt="con-img">
-    </div>
-    <div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/b47041fb88.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header style = "height: 56px">
+    <nav class="navbar navbar-expand-lg bg-info bg-gradient fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto text-center">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="Adventures.html">Adventures</a>
+            <a class="nav-link" href="skills.html">Skills</a>
+            <a class="nav-link" href="About.html">About</a>
+            <a class="nav-link" href="Hobbies.html">Hobbies</a>
+            <a class="nav-link" href="contacts.html">Contact</a>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div>
+    <h1 class="position-absolute top-50 end-0 display-1">Contact Me</h1>
+    <img class="bg-image" style="width: 100vw" src="images/89763.jpg" alt="con-img">
+  </div>
+  <div class="container justify-content-center">
+    <div class="row">
+
+      <address class="col-sm-12 col-md-6 mt-4">
         <h1>Address</h1>
-        <address>
-            +251941225499 <br>
-            AAiT, 5 kilo
-            Addis Ababa
-            Ethiopia
-        </address>
-        <h3>Want to Write me Something?</h3>
-        <a href="godfathershemsu@gmail.com">Email</a>
+        <span><i class="fa-solid fa-phone"></i> +25141225499</span> <br>
+        <span><i class="fa-solid fa-location-dot 2xl"></i> AAiT, 5 kilo
+          Addis Ababa
+          Ethiopia </span> <br>
+
+        <span><i class="fa-solid fa-envelope"></i>
+          sampleemail@gmail.com</span>
+
+
+      </address>
+      <div class="Talk col col-md-4 bg-light rounded-lg mt-4 py-4">
+        <h2 class="talk--head">Work With Me</h2>
+        <p>Describe what you want me to do below and get started</p>
+        <a class="btn bg-danger text-light" href="godfathershemsu@gmail.com">Start</a>
+      </div>
+
     </div>
+
+  </div>
+
 </body>
 <footer>
-    <ul>
-        <li><a href="Adventures.html">Adventures</a></li>
-        <li><a href="contacts.html">Contact</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Hobbies.html">Hobbies</a></li>
-    </ul>
+  <div class="mt-5">
+    <footer class="text-center text-lg-start text-white" style="background-color: #040615">
+      <div class="container p-4 pb-0">
 
-    <div class = "social media">
-        <a href="godfathershemsu@gmail.com"><i class="fa-brands fa-google fa-2xl"></i></a>
-        <a href=""><i class="fa-brands fa-telegram fa-2xl"></i></a>
-        <a href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+        <section class="">
 
-    </div>
+          <div class="row">
+
+            <div class="">
+
+              <p class="text-center">
+                Thank you for visiting my website. Check out these links to explore further
+
+              </p>
+            </div>
+
+
+
+            <div class="">
+              <ul class="list-unstyled mb-0 text-center">
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Adventures</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Contact</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">About</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Hobbies</a>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+
+      </div>
+
+      </section>
+
+
+      <hr class="mb-4" />
+
+      <hr class="mb-4" />
+      <section class="mb-4 text-center">
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-whatsapp"></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-telegram"></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+      </section>
+  </div>
 
 </footer>
+
 </html>
